@@ -1,0 +1,130 @@
+/* =========================
+   General
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  min-height: 70vh;
+}
+
+/* =========================
+   Navbar
+========================= */
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* =========================
+   Blog Cards
+========================= */
+.card {
+  transition: 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  transition: 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.02);
+}
+
+/* =========================
+   Buttons
+========================= */
+.btn {
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================
+   Post Details
+========================= */
+article {
+  background-color: #ffffff;
+}
+
+article p,
+article div {
+  font-size: 17px;
+}
+
+/* =========================
+   Contact
+========================= */
+.form-control {
+  padding: 12px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #212529;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+  margin-top: 50px;
+}
+
+footer a {
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: white !important;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
